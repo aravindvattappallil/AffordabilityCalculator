@@ -5,12 +5,14 @@ export const TRANSLATIONS_EN={
     findDefinition:"Find an estimate of how much mortgage or rent you can afford.",
     
     Provinceorterritoryofresidence:"Province or territory of residence",
-    Totalgrossannualhouseholdincome:"Total gross annual household income",
-    Creditcardsandlinesofcredit:"Credit cards and lines of credit (total owing)",
+    Totalgrossannualhouseholdincome:"Total House value",
+    Creditcardsandlinesofcredit:"Interest Rate %",
     Downpayment:"Down payment",
     Loansandotherdebts:"Loans and other debts",
-    Monthlycondofees:"Monthly condo fees (if applicable)",
+    Monthlycondofees:"Loan Duration (years)",
     calculate:"CALCULATE",
+    recalculate:"RECALCULATE",
+    plsEnterValue:"Please Enter All Information",
 
     Youraffordabilityestimate:"Your affordability estimate",
     Maximumpurchaseprice:"Maximum purchase price",

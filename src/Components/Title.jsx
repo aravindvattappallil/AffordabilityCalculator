@@ -7,7 +7,7 @@ function Title() {
     const {t} = useContext(Context)
   return (
     <Box sx={{display:'flex', flexDirection:'column', alignItems:'center',  backgroundColor:'primary.light', p:5}}>
-         <Typography style={{fontSize:"2.2vw"}}variant="subtitle1" gutterBottom >
+         <Typography style={{fontSize:"2.vw"}}variant="subtitle1" gutterBottom >
         {t("MORTGAGEAFFORDABILITYCALCULATOR")}
       </Typography>
         <Typography variant="h3" style={{fontSize:"5vw"}}gutterBottom align='justify' >

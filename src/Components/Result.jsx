@@ -3,9 +3,13 @@ import React, { useContext } from "react";
 import HouseOutlined from "@mui/icons-material/House";
 import { LocalAtmOutlined } from "@mui/icons-material";
 import Context from '../Context'
+import { useSelector } from "react-redux";
+
+
 
 function Result() {
 
+  const data = useSelector((state)=>state.config)
   const {t} = useContext(Context)
   return (
     <Box>
@@ -45,7 +49,7 @@ function Result() {
             variant="subtitle1"
             gutterBottom
           >
-           $1000
+           ${data.homeValue}
           </Typography>
         </Box>
 
@@ -71,7 +75,7 @@ function Result() {
             variant="subtitle1"
             gutterBottom
           >
-           $1000
+           ${data.monthlyPayment}
           </Typography>
         </Box>
       </Stack>

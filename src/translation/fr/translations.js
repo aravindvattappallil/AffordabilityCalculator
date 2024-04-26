@@ -5,12 +5,13 @@ export const TRANSLATIONS_FR={
     findDefinition:"Trouvez une estimation de combien de prêt hypothécaire ou de loyer vous pouvez vous permettre.",
     
     Provinceorterritoryofresidence:"Province ou territoire de résidence",
-    Totalgrossannualhouseholdincome:"Revenu annuel brut total du ménage",
-    Creditcardsandlinesofcredit:"Cartes de crédit et lignes de crédit (total dû)",
+    Totalgrossannualhouseholdincome:"Valeur totale de la maison",
+    Creditcardsandlinesofcredit:"Taux d'intérêt %",
     Downpayment:"Paiement initial",
     Loansandotherdebts:"Prêts et autres dettes",
-    Monthlycondofees:"Frais mensuels de copropriété (si applicable)",
+    Monthlycondofees:"Durée du prêt (années) ",
     calculate:"Calculer",
+    recalculate:"RECALCULER",
 
     Youraffordabilityestimate:"Votre estimation de capacité d'achat",
     Maximumpurchaseprice:"Prix d'achat maximum",
